@@ -1,0 +1,56 @@
+body {
+	background-color: #dcb7e6 ;
+}
+
+h1 {
+	text-align: center;
+		
+}
+
+.important {
+	font-weight: bold;
+}
+
+#notice {
+	font-style: italic;
+}
+
+/* unvisited link */
+a:link {
+	color:#FFFFFF
+}
+
+/* visited link */
+a:visited {
+	color:#00FF00;
+}
+
+/* mouse over link */
+a:hover {
+	color:#FF00FF;
+}
+
+/* selected link */
+a:active {
+	color:#0000FF;
+}
+
+
+#navigation {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation a {
+	display: block;
+	width: 60px;
+	background-color: pink;
+}
+
+#navigation li {
+	display: inline;
+	float: left;
+
+}
+
