@@ -1,10 +1,12 @@
 body {
-	background-image: https://github.com/sobeteebs/umreallygood/blob/master/security.jpeg?raw=true ;
+	background-image: url('https://github.com/sobeteebs/umreallygood/blob/master/security.jpeg?raw=true') ;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
 	text-align: center;
-		
+
 }
 
 .important {
@@ -14,6 +16,7 @@ h1 {
 #notice {
 	font-style: italic;
 }
+
 
 /* unvisited link */
 a:link {
@@ -54,3 +57,10 @@ a:active {
 
 }
 
+footer {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	background-color: pink;
+	text-align: center;
+}
